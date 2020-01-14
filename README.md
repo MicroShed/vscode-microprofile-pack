@@ -1,6 +1,6 @@
 # MicroProfile Extension Pack
 
-MicroProfile Extension Pack is a collectin of extensions that can help develop Java applications using [Eclipse Microprofile](https://microprofile.io/).
+MicroProfile Extension Pack is a collection of extensions that can help develop Java applications using [Eclipse Microprofile](https://microprofile.io/).
 
 ## Extensions Included
 By installing the MicroProfile Extension Pack, the following extensions are installed:
