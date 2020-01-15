@@ -1,7 +1,7 @@
 {
     "name": "vscode-microprofile-pack",
     "displayName": "MicroProfile Extension Pack",
-    "description": "Extensions to develop with Eclipse MicroProfile",
+    "description": "A collection of extensions to develop with Eclipse MicroProfile",
     "version": "0.1.0",
     "publisher": "MicroProfile-Community",
     "preview": true,
