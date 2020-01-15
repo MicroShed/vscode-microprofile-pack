@@ -5,7 +5,10 @@ MicroProfile Extension Pack is a collection of extensions that can help develop 
 ## Extensions Included
 By installing the MicroProfile Extension Pack, the following extensions are installed:
 
+### Creating a MicroProfile project
 * [MicroProfile Starter](https://marketplace.visualstudio.com/items?itemName=MicroProfile-Community.mp-starter-vscode-ext) - Quickly generate a MicroProfile Maven project.
+
+### Tools for working with runtimes that support MicroProfile
 * [Open Liberty Tools](https://marketplace.visualstudio.com/items?itemName=Open-Liberty.liberty-dev-vscode-ext) - Support for development with Open Liberty.
 * [Quarkus](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-quarkus) - Support for development with Quarkus.
 
