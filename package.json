@@ -5,7 +5,7 @@
     "version": "0.1.0",
     "publisher": "MicroProfile-Community",
     "preview": true,
-    "license": "EPL-2.0",
+    "license": "Apache-2.0",
     "engines": {
         "vscode": "^1.41.0"
     },
