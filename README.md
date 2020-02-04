@@ -11,4 +11,6 @@ By installing the MicroProfile Extension Pack, the following extensions are inst
 
 ## Contributing
 
+File an issue or submit a pull request if there is an extension that should be added to the extension pack.
+
 Our [CONTRIBUTING](CONTRIBUTING.md) document contains details for submitting pull requests.
