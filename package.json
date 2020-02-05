@@ -1,31 +1,41 @@
 {
-    "name": "vscode-microprofile-pack",
-    "displayName": "MicroProfile Extension Pack",
-    "description": "A collection of extensions to develop Java microservices with Eclipse MicroProfile",
-    "version": "0.1.0",
-    "publisher": "MicroProfile-Community",
-    "preview": true,
-    "license": "Apache-2.0",
-    "engines": {
-        "vscode": "^1.41.0"
-    },
-    "icon": "images/microprofile-logo.png",
-    "keywords": [
-        "Eclipse",
-        "Java",
-        "MicroProfile"
-    ],
-    "categories": [
-        "Extension Packs"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/MicroShed/vscode-microprofile-pack/"
-    },
-    "homepage": "https://github.com/MicroShed/vscode-microprofile-pack/",
-    "extensionPack": [
-        "MicroProfile-Community.mp-starter-vscode-ext",
-        "Open-Liberty.liberty-dev-vscode-ext",
-        "redhat.vscode-quarkus"
-    ]
+  "name": "vscode-microprofile-pack",
+  "displayName": "MicroProfile Extension Pack",
+  "description": "A collection of extensions to develop Java microservices with Eclipse MicroProfile",
+  "version": "0.0.1",
+  "publisher": "MicroProfile-Community",
+  "preview": true,
+  "license": "Apache-2.0",
+  "engines": {
+    "vscode": "^1.41.0"
+  },
+  "icon": "images/microprofile-logo.png",
+  "galleryBanner": {
+    "color": "#1d2f42",
+    "theme": "dark"
+  },
+  "keywords": [
+    "Eclipse",
+    "Java",
+    "MicroProfile",
+    "Cloud Native",
+    "Microservices"
+  ],
+  "categories": [
+    "Programming Languages",
+    "Extension Packs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MicroShed/vscode-microprofile-pack/"
+  },
+  "homepage": "https://github.com/MicroShed/vscode-microprofile-pack/",
+  "bugs": {
+    "url": "https://github.com/MicroShed/vscode-microprofile-pack/issues"
+  },
+  "extensionPack": [
+    "MicroProfile-Community.mp-starter-vscode-ext",
+    "Open-Liberty.liberty-dev-vscode-ext",
+    "redhat.vscode-quarkus"
+  ]
 }
