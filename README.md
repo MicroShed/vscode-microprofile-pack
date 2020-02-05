@@ -8,9 +8,9 @@ By installing the MicroProfile Extension Pack, the following extensions are inst
 ### Creating a MicroProfile project
 * [MicroProfile Starter](https://marketplace.visualstudio.com/items?itemName=MicroProfile-Community.mp-starter-vscode-ext) - Quickly generate a MicroProfile Maven project.
 
-### Tools for working with runtimes that support MicroProfile
-* [Open Liberty Tools](https://marketplace.visualstudio.com/items?itemName=Open-Liberty.liberty-dev-vscode-ext) - Support for development with Open Liberty.
-* [Quarkus](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-quarkus) - Support for development with Quarkus.
+### Development tools for runtimes that support MicroProfile
+* [Open Liberty Tools](https://marketplace.visualstudio.com/items?itemName=Open-Liberty.liberty-dev-vscode-ext) - Support for development with [Open Liberty](https://openliberty.io/).
+* [Quarkus](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-quarkus) - Support for development with [Quarkus](https://quarkus.io/).
 
 ## Contributing
 Do you have a suggestion for for the MicroProfile Extension Pack? File an issue or submit a pull request if there is an extension that should be added to the extension pack.  Our [CONTRIBUTING](CONTRIBUTING.md) document contains details for submitting pull requests.
