@@ -7,6 +7,7 @@ By installing the MicroProfile Extension Pack, the following extensions are inst
 
 ### Creating a MicroProfile project
 * [MicroProfile Starter](https://marketplace.visualstudio.com/items?itemName=MicroProfile-Community.mp-starter-vscode-ext) - Quickly generate a MicroProfile Maven project.
+* [MicroProfile Rest Client Generator](https://marketplace.visualstudio.com/items?itemName=MicroProfile-Community.mp-rest-client-generator-vscode-ext) - Quickly generate a MicroProfile Rest Client interface template within an existing project.
 
 ### Development tools for runtimes that support MicroProfile
 * [Open Liberty Tools](https://marketplace.visualstudio.com/items?itemName=Open-Liberty.liberty-dev-vscode-ext) - Support for development with [Open Liberty](https://openliberty.io/).
