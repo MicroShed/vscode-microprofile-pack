@@ -2,6 +2,9 @@
 
 All notable changes to the MicroProfile Extension Pack will be documented below.
 
+## 0.1.0
+- Added the [MicroProfile Tools extension](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-microprofile)
+
 ## 0.0.3
 - Added the [Payara Tools extension](https://marketplace.visualstudio.com/items?itemName=Payara.payara-vscode)
 

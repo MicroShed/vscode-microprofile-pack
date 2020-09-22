@@ -2,7 +2,7 @@
   "name": "vscode-microprofile-pack",
   "displayName": "MicroProfile Extension Pack",
   "description": "A collection of extensions to develop Java microservices with Eclipse MicroProfile",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "publisher": "MicroProfile-Community",
   "preview": true,
   "license": "Apache-2.0",
@@ -36,6 +36,7 @@
   "extensionPack": [
     "MicroProfile-Community.mp-starter-vscode-ext",
     "MicroProfile-Community.mp-rest-client-generator-vscode-ext",
+    "redhat.vscode-microprofile",
     "Open-Liberty.liberty-dev-vscode-ext",
     "redhat.vscode-quarkus",
     "Payara.payara-vscode"

@@ -9,6 +9,9 @@ By installing the MicroProfile Extension Pack, the following extensions are inst
 * [MicroProfile Starter](https://marketplace.visualstudio.com/items?itemName=MicroProfile-Community.mp-starter-vscode-ext) - Quickly generate a MicroProfile Maven project.
 * [MicroProfile Rest Client Generator](https://marketplace.visualstudio.com/items?itemName=MicroProfile-Community.mp-rest-client-generator-vscode-ext) - Quickly generate a MicroProfile Rest Client interface template from an OpenAPI document.
 
+### Developing a MicroProfile project
+* [MicroProfile Tools](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-microprofile) - Language support for MicroProfile API and properties via [Language Server for Eclipse MicroProfile](https://github.com/eclipse/lsp4mp).
+
 ### Development tools for runtimes that support MicroProfile
 * [Open Liberty Tools](https://marketplace.visualstudio.com/items?itemName=Open-Liberty.liberty-dev-vscode-ext) - Support for development with [Open Liberty](https://openliberty.io/).
 * [Quarkus](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-quarkus) - Support for development with [Quarkus](https://quarkus.io/).
