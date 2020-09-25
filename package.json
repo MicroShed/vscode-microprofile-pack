@@ -33,12 +33,68 @@
   "bugs": {
     "url": "https://github.com/MicroShed/vscode-microprofile-pack/issues"
   },
+  "main": "./out/extension.js",
+  "activationEvents": [
+    "onStartupFinished",
+    "onLanguage:java",
+    "onCommand:microprofile.overview",
+    "onWebviewPanel:microprofile.overview"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "microprofile.overview",
+        "category": "MicroProfile",
+        "title": "Overview"
+      }
+    ],
+    "configuration": [
+      {
+        "title": "MicroProfile Extension Pack",
+        "properties": {
+          "microprofile.alwaysShowOverview": {
+            "type": "boolean",
+            "default": true,
+            "description": "Determines whether to show the overview page on startup."
+          }
+        }
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run build",
+    "compile": "webpack --config webpack.config.js",
+    "watch": "webpack --config webpack.config.js --watch --info-verbosity verbose",
+    "build": "webpack --config webpack.config.js --mode=\"production\""
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.1",
+    "@types/node": "^14.11.2",
+    "@types/vscode": "1.32.0",
+    "@typescript-eslint/eslint-plugin": "^2.17.0",
+    "@typescript-eslint/parser": "^2.17.0",
+    "autoprefixer": "^8.5.1",
+    "bootstrap": "^4.5.2",
+    "css-loader": "^3.6.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "html-webpack-inline-source-plugin": "0.0.10",
+    "html-webpack-plugin": "^3.2.0",
+    "jquery": "^3.5.1",
+    "node-sass": "^4.14.1",
+    "postcss-loader": "^2.1.5",
+    "prettier": "^1.19.1",
+    "sass-loader": "^7.3.1",
+    "style-loader": "^0.21.0",
+    "ts-loader": "^4.3.0",
+    "typescript": "^3.3.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
   "extensionPack": [
     "MicroProfile-Community.mp-starter-vscode-ext",
     "MicroProfile-Community.mp-rest-client-generator-vscode-ext",
-    "redhat.vscode-microprofile",
-    "Open-Liberty.liberty-dev-vscode-ext",
-    "redhat.vscode-quarkus",
-    "Payara.payara-vscode"
+    "redhat.vscode-microprofile"
   ]
 }
