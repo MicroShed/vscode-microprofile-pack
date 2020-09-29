@@ -35,8 +35,10 @@
   },
   "main": "./out/extension.js",
   "activationEvents": [
-    "onStartupFinished",
     "onLanguage:java",
+    "workspaceContains:pom.xml",
+    "workspaceContains:build.gradle",
+    "workspaceContains:mnvw",
     "onCommand:microprofile.overview",
     "onWebviewPanel:microprofile.overview"
   ],
