@@ -35,9 +35,6 @@ export function activate(context: vscode.ExtensionContext): void {
   );
 
   let showOverviewPage = vscode.workspace.getConfiguration().get<boolean>(MICROPROFILE_SHOW_OVERVIEW_CONFIGURATION);
-  if (showOverviewPage === undefined) {
-    vscode.workspace.getConfiguration().update(MICROPROFILE_SHOW_OVERVIEW_CONFIGURATION, true, vscode.ConfigurationTarget.Global);
-  }
   if (showOverviewPage) {
     vscode.commands.executeCommand("microprofile.overview");
   }
