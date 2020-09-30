@@ -80,16 +80,16 @@ export class OverviewPage {
     syncExtensionVisibility(this._panelView);
 
     // monitor extensions installed
-    vscode.extensions.onDidChange(e => {
+    this._context.subscriptions.push(vscode.extensions.onDidChange(e => {
       syncExtensionVisibility(this._panelView);
-    });
+    }));
 
     // monitor workspace configuration for alwaysShowOverview setting
-    vscode.workspace.onDidChangeConfiguration((event: vscode.ConfigurationChangeEvent) => {
+    this._context.subscriptions.push(vscode.workspace.onDidChangeConfiguration((event: vscode.ConfigurationChangeEvent) => {
       if (event.affectsConfiguration(MICROPROFILE_SHOW_OVERVIEW_CONFIGURATION)) {
         syncCheckboxValue(this._panelView);
       }
-    });
+    }));
 
     this._context.subscriptions.push(this._panelView.webview.onDidReceiveMessage(async (e) => {
       if (e.command === SET_SHOW_ON_STARTUP_COMMAND) {
