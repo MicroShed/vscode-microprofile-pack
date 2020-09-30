@@ -9,8 +9,6 @@ export class OverviewPage {
 
   private _context: vscode.ExtensionContext;
   private _panelView: vscode.WebviewPanel;
-  private _disposables: vscode.Disposable[];
-
   private static readFile = util.promisify(fsReadFile);
 
   public static showOverview(context: vscode.ExtensionContext) {
@@ -27,7 +25,6 @@ export class OverviewPage {
 
   private constructor (context: vscode.ExtensionContext) {
     this._context = context;
-    this._disposables = [];
     this._panelView = this.createOverviewPage();
     this.initializeOverview();
   }
@@ -49,11 +46,7 @@ export class OverviewPage {
     );
     panel.onDidDispose(() => {
       OverviewPage.currentPanel = undefined;
-      while (this._disposables.length) {
-        this._disposables.pop()?.dispose();
-      }
-      this._disposables.pop
-    }, null);
+    });
 
     return panel;
   }
