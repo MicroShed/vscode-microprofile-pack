@@ -86,6 +86,7 @@
     "jquery": "^3.5.1",
     "node-sass": "^4.14.1",
     "postcss-loader": "^2.1.5",
+    "popper.js": "^1.16.1",
     "prettier": "^1.19.1",
     "sass-loader": "^7.3.1",
     "style-loader": "^0.21.0",
