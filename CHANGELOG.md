@@ -2,6 +2,10 @@
 
 All notable changes to the MicroProfile Extension Pack will be documented below.
 
+## 0.1.1
+- Removed the runtime extensions from the MicroProfile pack, included them in the overview page [#9](https://github.com/MicroShed/vscode-microprofile-pack/issues/9)
+- Added the Overview page 
+
 ## 0.1.0
 - Added the [Tools for MicroProfile extension](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-microprofile)
 

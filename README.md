@@ -1,6 +1,6 @@
 # MicroProfile Extension Pack
 
-MicroProfile Extension Pack is a collection of extensions that can help develop Java applications using [Eclipse MicroProfile](https://microprofile.io/).
+MicroProfile Extension Pack is a collection of extensions that can help develop Java applications using [MicroProfile](https://microprofile.io/).
 
 ## Extensions Included
 By installing the MicroProfile Extension Pack, the following extensions are installed:
@@ -25,4 +25,4 @@ By installing the MicroProfile Extension Pack, the following extensions are inst
 ## Contributing
 Do you have a suggestion for the MicroProfile Extension Pack? File an [issue](https://github.com/MicroShed/vscode-microprofile-pack/issues) or submit a pull request if there is an extension that should be added to the extension pack.  Our [CONTRIBUTING](CONTRIBUTING.md) document contains details for submitting pull requests.
 
-MicroProfile® and the MicroProfile logo are trademarks of the Eclipse Foundation
+MicroProfile® and the MicroProfile logo are trademarks of the Eclipse Foundation.
