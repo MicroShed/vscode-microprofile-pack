@@ -15,14 +15,14 @@ export async function createMicroProfileStarterProjectCmdHandler(context: vscode
 }
 
 /**
- * Check if MicroProfile REST Client Generator has been installed, if it has
+ * Check if Generator for MicroProfile Rest Client has been installed, if it has
  * execute the Generate a REST Client command. If it is not installed,
  * prompt user to install.
  * 
  * @param context vscode extension context
  */
 export async function generateMicroProfileRESTClient(context: vscode.ExtensionContext) {
-    if (!await validateAndRecommendExtension("microProfile-community.mp-rest-client-generator-vscode-ext", "MicroProfile REST Client Generator for Visual Studio Code is recommended to generate MicroProfile REST Client Interface template.", true)) {
+    if (!await validateAndRecommendExtension("microProfile-community.mp-rest-client-generator-vscode-ext", "Generator for MicroProfile Rest Client is recommended to generate MicroProfile REST Client Interface template.", true)) {
         return;
     }
     await vscode.commands.executeCommand("microprofile.restclient.generate");
