@@ -1,6 +1,9 @@
 # Change Log
 
-All notable changes to the MicroProfile Extension Pack will be documented below.
+All notable changes to the Extension Pack for MicroProfile will be documented below.
+
+## 0.1.2
+- Changed name to Extension Pack for MicroProfile
 
 ## 0.1.1
 - Removed the runtime extensions from the MicroProfile pack, included them in the overview page [#9](https://github.com/MicroShed/vscode-microprofile-pack/issues/9)

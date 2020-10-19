@@ -1,5 +1,4 @@
-# Contributing to MicroProfile Extension Pack for VS Code
-
+# Contributing to the Extension Pack for MicroProfile
 We welcome contributions, and request you follow these guidelines.
 
  - [Raising issues](#raising-issues)
