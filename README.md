@@ -1,6 +1,6 @@
 # Extension Pack for MicroProfile
 
-Extension Pack for MicroProfile is a collection of extensions that can help develop Java applications using [MicroProfile](https://microprofile.io/).
+Extension Pack for MicroProfile is a collection of Visual Studio Code extensions that can help develop Java applications using [MicroProfile](https://microprofile.io/).
 
 ## Extensions Included
 By installing the Extension Pack for MicroProfile, the following extensions are installed:
