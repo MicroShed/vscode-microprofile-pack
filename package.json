@@ -7,7 +7,7 @@
   "preview": true,
   "license": "Apache-2.0",
   "engines": {
-    "vscode": "^1.41.0"
+    "vscode": "^1.56.0"
   },
   "icon": "images/microprofile-logo.png",
   "galleryBanner": {
@@ -76,18 +76,15 @@
     "@typescript-eslint/eslint-plugin": "^4.26.1",
     "@typescript-eslint/parser": "^4.26.1",
     "autoprefixer": "^10.2.6",
-    "bootstrap": "^5.0.1",
     "css-loader": "^5.2.6",
     "eslint": "^7.28.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
-    "html-webpack-inline-source-plugin": "0.0.10",
-    "html-webpack-plugin": "^5.3.1",
     "jquery": "^3.6.0",
-    "node-sass": "^6.0.0",
+    "node-sass": "^7.0.1",
     "nth-check": ">=2.0.1",
     "popper.js": "^1.16.1",
-    "postcss-loader": "^6.0.0",
+    "postcss-loader": "^6.2.0",
     "prettier": "^2.3.1",
     "sass-loader": "^12.0.0",
     "style-loader": "^2.0.0",
@@ -100,5 +97,8 @@
     "MicroProfile-Community.mp-starter-vscode-ext",
     "MicroProfile-Community.mp-rest-client-generator-vscode-ext",
     "redhat.vscode-microprofile"
-  ]
+  ],
+  "dependencies": {
+    "bootstrap": "^4.5.2"
+  }
 }
