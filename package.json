@@ -2,7 +2,7 @@
   "name": "vscode-microprofile-pack",
   "displayName": "Extension Pack for MicroProfile",
   "description": "A collection of extensions to develop Java microservices with MicroProfile",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "publisher": "MicroProfile-Community",
   "preview": true,
   "license": "Apache-2.0",
