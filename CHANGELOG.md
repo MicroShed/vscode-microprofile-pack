@@ -2,6 +2,9 @@
 
 All notable changes to the Extension Pack for MicroProfile will be documented below.
 
+## 0.1.3
+- Fix release, updated dependencies
+
 ## 0.1.2
 - Changed name to Extension Pack for MicroProfile
 
