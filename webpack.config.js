@@ -3,8 +3,7 @@
  * Licensed under the MIT license.
  * @see https://github.com/microsoft/vscode-java-pack/blob/master/webpack.config.js
  */
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const HtmlWebpackInlineSourcePlugin = require('html-webpack-inline-source-plugin');
+const webpack = require('webpack');
 const path = require('path');
 
 module.exports = function (env, argv) {
@@ -30,9 +29,19 @@ module.exports = function (env, argv) {
         }, {
           loader: 'postcss-loader',
           options: {
-            plugins: function () {
-              return [require('autoprefixer')];
-            }
+            postcssOptions: {
+              plugins: [
+                [
+                  "autoprefixer",
+                  {
+                    // Options
+                  },
+                ],
+              ],
+            },
+            // plugins: function () {
+            //   return [require('autoprefixer')];
+            // }
           }
         }, {
           loader: 'sass-loader'
@@ -46,13 +55,9 @@ module.exports = function (env, argv) {
       devtoolModuleFilenameTemplate: "../[resource-path]"
     },
     plugins: [
-      new HtmlWebpackPlugin({
-        filename: path.resolve(__dirname, 'out/assets/overview/index.html'),
-        template: 'src/overview/assets/index.html',
-        inlineSource: '.(js|css)$',
-        chunks: ['overview']
-      }),
-      new HtmlWebpackInlineSourcePlugin(),
+      new webpack.ProvidePlugin({
+        process: 'process/browser',
+      })
     ],
     devtool: 'source-map',
     resolve: {
