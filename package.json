@@ -81,7 +81,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
     "jquery": "^3.6.0",
-    "node-sass": "^7.0.1",
+    "node-sass": "^7.0.3",
     "nth-check": ">=2.0.1",
     "popper.js": "^1.16.1",
     "postcss-loader": "^6.2.0",
